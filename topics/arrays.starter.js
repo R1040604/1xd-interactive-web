@@ -10,9 +10,11 @@
 */
 
 // 1 — create an array `meals` with three of your favorite meals and log it to the console
-
+let meals = [fries, soup, noodles];
+console.log(meals);
 // 2 — create an array `drinks` with three of your favorite drinks and log it to the console
-
+let drinks = [cola, applejuice, water];
+console.log(drinks);
 // 3 - create a variable `lastmeal` that stores the last item from the `meals` array
 // hint: use the pop() function - log the result to the console
 
