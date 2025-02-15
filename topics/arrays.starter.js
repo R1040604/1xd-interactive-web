@@ -17,13 +17,14 @@ let drinks = [cola, applejuice, water];
 console.log(drinks);
 // 3 - create a variable `lastmeal` that stores the last item from the `meals` array
 // hint: use the pop() function - log the result to the console
-let lastMeal = meals.pop();
+let lastmeal = meals.pop();
 console.log(lastmeal);
 console.log(meals);
 // 4 - loop over the meals array and print each meal to the console
 
 // 5 - add a meal called `cereal` to the `meals` array, this time using the push() function, log the variable to the console
-
+meals.push(cereal);
+console.log(meals)
 // 6 - create a variable `breakfast` and find the position of `cereal` in the `meals` array
 // hint: use the indexOf() function - log the result to the console
 
