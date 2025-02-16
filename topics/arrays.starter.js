@@ -1,5 +1,6 @@
 /*
-  __   ____  ____   __   _  _  ____ 
+  __   ____  ____   __   _  _ 
+   ____ 
  / _\ (  _ \(  _ \ / _\ ( \/ )/ ___)
 /    \ )   / )   //    \ )  / \___ \
 \_/\_/(__\_)(__\_)\_/\_/(__/  (____/
@@ -25,6 +26,7 @@ console.log(lastmeal);
 console.log(meals);
 // 4 - loop over the meals array and print each meal to the console
 let numOfMeals = meals.length;
+console.log(meals.length);
 // 5 - add a meal called `cereal` to the `meals` array, this time using the push() function, log the variable to the console
 meals.push(cereal);
 console.log(meals)
