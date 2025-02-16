@@ -14,6 +14,7 @@ let meals = [fries, soup, noodles];
 console.log(meals[0]);
 console.log(meals[1]);
 console.log(meals[2]);
+console.log(meals.length);
 // 2 — create an array `drinks` with three of your favorite drinks and log it to the console
 let drinks = [cola, applejuice, water];
 console.log(drinks);
