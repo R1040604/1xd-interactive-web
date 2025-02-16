@@ -24,7 +24,7 @@ let lastmeal = meals.pop();
 console.log(lastmeal);
 console.log(meals);
 // 4 - loop over the meals array and print each meal to the console
-
+let numOfMeals = meals.length;
 // 5 - add a meal called `cereal` to the `meals` array, this time using the push() function, log the variable to the console
 meals.push(cereal);
 console.log(meals)
