@@ -18,10 +18,19 @@ let intervalId;
 
 function keepCounting() {
   if (!intervalId) {
-    intervalId = setInterval(flashText, 1000);
+    intervalId = setInterval(counter, 1000);
   }
 }
-
+function keepCounting(){
+  const oElem = document.getElementById("start");
+  oElem.className = oElem.className === "start" ? "stop": "start"
+}
+function stopCounting(){
+  clearInterval(intervalId);
+  intervalId = null;
+}
+document.querySelector("start").addEventListener("click", keepCounting);
+document.querySelector("stop").addEventListener("click", stopCounting);
 // 3 — create an image gallery that shows a new image every 5 seconds and repeats that cycle
 // use the images gallery1.jpg, gallery2.jpg, gallery3.jpg in the images/timers_intervals folder
 // use only one img tag in the html and change its src attribute (#slideshow)
