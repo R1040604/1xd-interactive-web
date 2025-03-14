@@ -8,6 +8,7 @@
 */
 
 // 1 - click on the button, then add your name to localstorage in the key "myName"
+localStorage.getItem('myName', 'Sarah')
 
 // 2 - click on the button to read the value of "myName" from localstorage and display it span#myName
 
