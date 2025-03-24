@@ -14,12 +14,12 @@ class Student {
     }
     
     getFullName() {
-        return "${this.firstname} ${this.name}"; // error 2
+        return `${this.firstname} ${this.name}`; // error 2
     }
 
     printStudentCard() {
         const card = document.createElement("div");
-        card.innerHTML = "${student.firstname} ${student.name}"; // error 3
+        card.innerHTML = `${student.firstname} ${student.name}`; // error 3
         document.querySelect().appendChild(card); // error 4
     }
 }
@@ -31,3 +31,5 @@ class Student {
 
 const student = new Student("John", "Smith");
 // continue below
+console.log(student.getFullName());
+student.printStudentCard();
