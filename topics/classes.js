@@ -7,12 +7,12 @@ __    __  ____
 */
 
 class Student {
-    constructor(name) {
+    constructor(name, firstname) {
         // error 1
         this.name = name;
         this.firstname = firstname;
     }
-
+    
     getFullName() {
         return "${this.firstname} ${this.name}"; // error 2
     }
