@@ -26,7 +26,7 @@ console.log(age);
 function greet(name) {
   console.log(`Hello ${name}, have a nice day.`);
 }
-greet("Bob");
+greet("Sarah");
 // 7. write a function named calculateAge() that calculates your age and logs it to the console
 // use the function to print your age to the console
 // hint: the function should take your birthyear as an argument
