@@ -8,11 +8,11 @@
 // 1. link this script file to your page and open your developer console
 
 // 2. create a variable that keeps track of your name (can be let, const or var)
-let username = prompt("Name?", "Bob");
+let username = prompt("Name?", "Sarah");
 
 // 3. create a variable that asks for your birthyear (use prompt() for that)
 // hint: prompt() returns a string, so you'll need to convert it to a number with parseInt()
-let birthyear = parseInt(prompt("Birthyear?", "2000"));
+let birthyear = parseInt(prompt("Birthyear?", "2004"));
 
 // 4. calculate your age (this will require grabbing the current year somehow)
 // hint: you can get the current year with new Date().getFullYear()
