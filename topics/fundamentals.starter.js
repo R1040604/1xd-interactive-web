@@ -45,16 +45,16 @@ function feeling() {
   let feeling = prompt("How are you feeling?", "Good");
   switch (feeling.toLowerCase()) {
     case "good":
-      console.log("It's good that you're feeling good.");
+      console.log("It's good that you're feeling good. 😊");
       break;
     case "bad":
       console.log("Awh hope you feel better soon!");
       break;
     case "ok":
-      console.log("ok.");
+      console.log("ok. 😐");
       break;
     default:
-      console.log("I don't have a response for this. (Except this one)");
+      console.log("I don't have a response for this. (Except this one 😞)");
       break;
   }
 }
