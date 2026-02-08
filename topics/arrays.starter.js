@@ -55,3 +55,4 @@ for( let i= 0; i < tipjar.length; i++){
 }
 return sum;
 }
+total();
