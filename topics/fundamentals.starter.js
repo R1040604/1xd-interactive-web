@@ -36,7 +36,7 @@ function calculateAge(birthyear) {
   let age = currentyear - parseInt(birthyear);
   console.log(age);
 }
-calculateAge("2000");
+calculateAge("2004");
 // 8. use prompt() to ask if you how you are feeling today ("good", "bad", "ok")
 // store the result in a variable
 // print an emoji to the console based on the result (😊, 😞, 😐)
