@@ -23,7 +23,7 @@ document.querySelector("#paragraph3").innerHTML = "Never gonna run around and de
 const span = document.querySelectorAll(".grabme");
 console.log(span);
 span.forEach(span => {
-    span.innerHTML = "😊"
+    span.innerHTML = "😊";
 });
 // 4 - change the CSS class
 // select the element with the id "message" and change the css class to "error"
