@@ -20,7 +20,7 @@ class Student {
     printStudentCard() {
         const card = document.createElement("div");
         card.innerHTML = `${student.firstname} ${student.name}`; // error 3
-        document.querySelect().appendChild(card); // error 4
+        document.querySelector("#studentCard").appendChild(card); // error 4
     }
 }
 
