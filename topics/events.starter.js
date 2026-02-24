@@ -18,9 +18,9 @@ btn.addEventListener("click", ()=>{
 
 function changeBackground() {
     const rndCol = `rgb(
-        ${Math.floor(Math.random() * 256)},
-        ${Math.floor(Math.random() * 256)},
-        ${Math.floor(Math.random() * 256)}
+        ${Math.floor(Math.random() * 255)},
+        ${Math.floor(Math.random() * 255)},
+        ${Math.floor(Math.random() * 255)}
     )`;
     document.querySelector("#zone1").style.backgroundColor = rndCol;
 }
@@ -42,7 +42,7 @@ link.addEventListener("click", (event) => {
 // 4 — Similar to question number 2, this time use event bubbling to change the background color of the squares in #bubbleZone
 // hint: with event bubbling you can select the parent element and listen for events on its children to avoid adding multiple event listeners
 if (event.target !== event.currentTarget) {
-    const color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+    const color = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
     event.target.style.backgroundColor = color;
   }
 const bubbleZone = document.querySelector("#bubbleZone");
