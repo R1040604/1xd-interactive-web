@@ -9,13 +9,13 @@
 
 // 1 - click on the button, then add your name to localstorage in the key "myName"
 document.getElementById('addNameButton').addEventListener('click', function() {
-     localStorage.setItem('myName', 'Sarah');
+    localStorage.setItem('myName', 'Sarah');
  });
  
  // 2 - click on the button to read the value of "myName" from localstorage and display it in span#myName
  document.getElementById('readNameButton').addEventListener('click', function() {
-     const name = localStorage.getItem('myName');
-     document.getElementById('myName').textContent = name;
+    const name = localStorage.getItem('myName');
+    document.getElementById('myName').textContent = name;
  });
  
  // 3 - click on remove button to remove "myName" from localstorage
